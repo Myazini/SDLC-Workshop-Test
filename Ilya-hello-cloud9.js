@@ -2,12 +2,12 @@ var readline = require('readline-sync');
 var i = 10;
 var input;
 
-console.log("Hello there, Cloud9!");
+console.log("Hello there, Ilya!");
 console.log("i is " + i);
 
 do {
-    input = readline.question("Enter a number (or 'q' to quit): ");
-    if (input === 'q') {
+    input = readline.question("Enter a number (or 's' to quit): ");
+    if (input === 's') {
         console.log('OK, exiting.')
     }
     else{
